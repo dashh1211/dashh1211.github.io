@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DashhFIT — Privacy Policy</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:       #080A12;
+      --surface:  #0F1118;
+      --accent:   #7C6FE8;
+      --text:     #F0EEFF;
+      --muted:    rgba(240,238,255,0.45);
+      --sep:      rgba(255,255,255,0.07);
+      --radius:   14px;
+    }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      font-size: 16px;
+      line-height: 1.7;
+      padding: 0 16px 80px;
+    }
+
+    /* ── Header ── */
+    header {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 0 32px;
+      border-bottom: 1px solid var(--sep);
+      margin-bottom: 40px;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+
+    .logo-icon {
+      width: 44px; height: 44px; border-radius: 12px;
+      background: var(--accent);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 22px; font-weight: 700; color: #fff;
+    }
+
+    .logo-name {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    h1 {
+      font-size: clamp(26px, 5vw, 36px);
+      font-weight: 700;
+      letter-spacing: -0.8px;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .meta span::after { content: '·'; margin-left: 8px; }
+    .meta span:last-child::after { content: ''; }
+
+    /* ── Content ── */
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+      color: var(--text);
+      margin: 40px 0 16px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--sep);
+    }
+
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text);
+      margin: 24px 0 10px;
+    }
+
+    p { margin-bottom: 14px; color: var(--muted); }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    strong { color: var(--text); font-weight: 600; }
+    em { color: var(--muted); font-style: italic; }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 14px;
+      color: var(--muted);
+    }
+
+    li { margin-bottom: 6px; }
+
+    /* ── Tables ── */
+    .table-wrap { overflow-x: auto; margin-bottom: 20px; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+    }
+
+    th {
+      text-align: left;
+      padding: 10px 14px;
+      background: var(--surface);
+      color: var(--text);
+      font-weight: 600;
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      border-bottom: 1px solid var(--sep);
+    }
+
+    td {
+      padding: 10px 14px;
+      color: var(--muted);
+      border-bottom: 1px solid var(--sep);
+      vertical-align: top;
+    }
+
+    tr:last-child td { border-bottom: none; }
+
+    /* ── Cards ── */
+    .card {
+      background: var(--surface);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      margin-bottom: 12px;
+    }
+
+    .card-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 6px;
+    }
+
+    .card p { margin: 0; font-size: 14px; }
+
+    /* ── Not collected block ── */
+    .not-collected {
+      background: rgba(52,211,153,0.06);
+      border: 1px solid rgba(52,211,153,0.2);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 14px;
+    }
+
+    .not-collected .tag {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      color: #34D399;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 8px;
+    }
+
+    /* ── Footer ── */
+    footer {
+      max-width: 720px;
+      margin: 60px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid var(--sep);
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 8px;
+    }
+
+    hr { border: none; border-top: 1px solid var(--sep); margin: 32px 0; }
+
+    @media (max-width: 500px) {
+      h2 { font-size: 18px; }
+      td, th { padding: 8px 10px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <div class="logo-icon">D</div>
+    <span class="logo-name">DashhFIT</span>
+  </div>
+  <h1>Privacy Policy</h1>
+  <div class="meta">
+    <span>Effective May 4, 2025</span>
+    <span>Last updated May 4, 2025</span>
+    <span>com.dashh.fittrack</span>
+  </div>
+</header>
+
+<div class="content">
+
+  <h2>1. Introduction</h2>
+  <p>DashhFIT ("we", "our", "the App") is a personal fitness and nutrition tracking application available on iOS and Android. This Privacy Policy explains what information we collect, how we use it, with whom we share it, and what rights you have regarding your data.</p>
+  <p>By using DashhFIT, you agree to the practices described in this Privacy Policy. If you do not agree, please discontinue use of the App.</p>
+
+  <h2>2. Data We Collect</h2>
+
+  <h3>2.1 Data You Provide Directly</h3>
+
+  <div class="card">
+    <div class="card-title">Account &amp; Identity</div>
+    <ul>
+      <li>Telegram user ID (used as your account identifier)</li>
+      <li>First name or display name <em>(optional)</em></li>
+      <li>Profile photo <em>(optional, selected from your device gallery)</em></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Physical &amp; Health Data <em>(entered voluntarily, never required)</em></div>
+    <ul>
+      <li>Body weight (kg), height (cm), age, gender</li>
+      <li>Body fat percentage</li>
+      <li>Body measurements: chest, bicep, forearm, waist, thigh, calf, glutes, neck (cm)</li>
+      <li>Fitness goal (lose fat / build muscle / health / sport performance)</li>
+      <li>Fitness level (beginner / intermediate / advanced)</li>
+      <li>Desired training frequency (sessions per week)</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Workout Data</div>
+    <ul>
+      <li>Workout sessions: date, status, exercises, sets, reps, weights, duration, notes</li>
+      <li>Workout templates: name, scheduled days, exercise lists</li>
+      <li>Rest timer usage and actual rest durations</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-title">Nutrition Data</div>
+    <ul>
+      <li>Food entries: name, description, calories, protein, carbs, fat, meal type, time logged</li>
+      <li>Daily water intake logs</li>
+      <li>Daily calorie and macro goals</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <div class="card-title">AI Chat Messages</div>
+    <ul>
+      <li>Messages you send to the AI coach</li>
+      <li>AI responses <em>(stored locally on your device only)</em></li>
+    </ul>
+  </div>
+
+  <h3>2.2 Data Collected Automatically</h3>
+  <ul>
+    <li><strong>Authentication token</strong> — a signed JWT stored in your device's encrypted secure storage (iOS Keychain / Android Keystore)</li>
+    <li><strong>Expo push token</strong> — generated locally for notifications, never shared with advertising networks</li>
+    <li><strong>Subscription status</strong> — plan type and expiry date, cached locally for offline use</li>
+  </ul>
+
+  <h3>2.3 Data We Do NOT Collect</h3>
+  <div class="not-collected">
+    <div class="tag">Never collected</div>
+    <ul>
+      <li>GPS or precise location data</li>
+      <li>Contacts or address book</li>
+      <li>Advertising identifiers (IDFA / GAID)</li>
+      <li>Browsing history or cross-app activity</li>
+      <li>Biometric raw data (Face ID / Touch ID — OS-level only, no raw data accessed)</li>
+      <li>Financial details (card numbers, bank accounts — payments handled entirely by YooKassa)</li>
+      <li>Any data from children under 13 years of age</li>
+    </ul>
+  </div>
+
+  <h2>3. How We Use Your Data</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Purpose</th><th>Data Used</th><th>Legal Basis</th></tr></thead>
+      <tbody>
+        <tr><td>Account authentication</td><td>Telegram ID, JWT token</td><td>Contract</td></tr>
+        <tr><td>Personalising the app</td><td>Name, photo, fitness goals, level</td><td>Contract</td></tr>
+        <tr><td>Calculating nutrition targets</td><td>Weight, height, age, gender, activity</td><td>Contract</td></tr>
+        <tr><td>AI food recognition</td><td>Photo or text description of food</td><td>Consent</td></tr>
+        <tr><td>AI workout plan generation</td><td>Survey answers, profile data</td><td>Consent</td></tr>
+        <tr><td>AI coach responses</td><td>Chat messages, workout/nutrition context</td><td>Consent</td></tr>
+        <tr><td>Push notifications</td><td>Expo push token, notification preferences</td><td>Consent (opt-in)</td></tr>
+        <tr><td>Premium subscription</td><td>Telegram ID only (passed to payment flow)</td><td>Contract</td></tr>
+        <tr><td>Analytics display</td><td>Your workout and nutrition history</td><td>Contract</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>4. Data Storage</h2>
+
+  <h3>4.1 On Your Device (Local)</h3>
+  <p>The following data is stored <strong>exclusively on your device</strong> in an encrypted SQLite database and never leaves it:</p>
+  <ul>
+    <li>All workout sessions and templates</li>
+    <li>All nutrition entries and water logs</li>
+    <li>All AI chat sessions and messages</li>
+    <li>Your profile data (basics, measurements, history)</li>
+    <li>App settings and preferences</li>
+    <li>JWT authentication token (iOS Keychain / Android Keystore)</li>
+    <li>Subscription status cache (encrypted, 7-day TTL)</li>
+  </ul>
+
+  <h3>4.2 On Our Servers (Supabase, EU — Frankfurt)</h3>
+  <ul>
+    <li><strong>Subscription records:</strong> Telegram ID, plan type, activation date, expiry date</li>
+    <li><strong>AI usage counters:</strong> Telegram ID, daily request count (free-tier enforcement)</li>
+    <li><strong>Generated workout plans:</strong> deleted after you import them (or after 30 days)</li>
+    <li><strong>Bot survey answers:</strong> deleted immediately after plan generation</li>
+    <li><strong>Profile sync:</strong> basic fields synced from bot survey answers only</li>
+  </ul>
+
+  <h2>5. Data Retention</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Data</th><th>Retention Period</th></tr></thead>
+      <tbody>
+        <tr><td>Local device data (workouts, nutrition, chat)</td><td>Until you delete the app or your account</td></tr>
+        <tr><td>JWT authentication token</td><td>Until you sign out or delete your account</td></tr>
+        <tr><td>Subscription records (Supabase)</td><td>Until account deletion + 30 days</td></tr>
+        <tr><td>AI usage counters</td><td>Rolling 24-hour window, auto-reset daily</td></tr>
+        <tr><td>Generated workout plans</td><td>Deleted after import or after 30 days</td></tr>
+        <tr><td>Bot survey answers</td><td>Deleted immediately after plan generation</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>6. Third-Party Services</h2>
+
+  <div class="card"><div class="card-title">Supabase — Database &amp; Auth</div><p>Server-side storage and subscription management. Located in Frankfurt, Germany (AWS eu-central-1). <a href="https://supabase.com/privacy" target="_blank">Privacy Policy</a></p></div>
+  <div class="card"><div class="card-title">Telegram — Authentication</div><p>Nonce-based authentication. We receive only your Telegram user ID and first name. We do not access your phone number, contacts, or messages. <a href="https://telegram.org/privacy" target="_blank">Privacy Policy</a></p></div>
+  <div class="card"><div class="card-title">IO Intelligence API — AI Features</div><p>Food recognition, workout plan generation, AI coach. Photos are not stored after analysis. <a href="https://intelligence.io.solutions/privacy" target="_blank">Privacy Policy</a></p></div>
+  <div class="card"><div class="card-title">Open Food Facts — Barcode Lookup</div><p>Barcode number only, no user identity shared. <a href="https://world.openfoodfacts.org/privacy" target="_blank">Privacy Policy</a></p></div>
+  <div class="card"><div class="card-title">YooKassa — Payments</div><p>Premium subscription processing. We never see your card details. We only store: Telegram ID, plan, dates. <a href="https://yookassa.ru/docs/support/merchant/payments/onboarding/agreement" target="_blank">Privacy Policy</a></p></div>
+  <div class="card"><div class="card-title">Vercel — API Hosting</div><p>Standard server logs (IP, path, timestamp) retained for 30 days. <a href="https://vercel.com/legal/privacy-policy" target="_blank">Privacy Policy</a></p></div>
+  <div class="card"><div class="card-title">Expo / EAS — App Delivery</div><p>Push notification token delivery only. <a href="https://expo.dev/privacy" target="_blank">Privacy Policy</a></p></div>
+
+  <div class="not-collected" style="margin-top:16px;">
+    <div class="tag">Not integrated</div>
+    <p style="margin:0;font-size:14px;">Advertising networks · Analytics SDKs · Crash reporting with user identifiers · Social media SDKs · Location services · Data brokers</p>
+  </div>
+
+  <h2>7. Permissions</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Permission</th><th>Platform</th><th>Purpose</th></tr></thead>
+      <tbody>
+        <tr><td>Camera</td><td>iOS &amp; Android</td><td>Food photo analysis — Premium feature, requested only when first used</td></tr>
+        <tr><td>Photo Library</td><td>iOS &amp; Android</td><td>Select food photo from gallery — Premium feature, requested only when first used</td></tr>
+        <tr><td>Push Notifications</td><td>iOS &amp; Android</td><td>Workout reminders, streak alerts, nutrition reminders — opt-in, configurable per type</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>We do not request location, contacts, microphone, calendar, Bluetooth, NFC, or any other permissions.</p>
+
+  <h2>8. AI Features — Special Disclosure</h2>
+
+  <h3>8.1 Food Photo Analysis</h3>
+  <ol>
+    <li>Image compressed on your device (70% quality)</li>
+    <li>Sent over HTTPS to our API server</li>
+    <li>Forwarded to IO Intelligence's vision model</li>
+    <li><strong>Deleted immediately</strong> — not stored anywhere after analysis</li>
+    <li>API returns only: food name, calories, protein, carbs, fat</li>
+  </ol>
+
+  <h3>8.2 AI Workout Plan Generation</h3>
+  <p>Your anonymised fitness profile (no name, no Telegram username) is sent to the AI model. Survey answers are deleted immediately after the plan is generated. The plan is stored temporarily until you import it.</p>
+
+  <h3>8.3 AI Coach Chat</h3>
+  <p>Your messages are sent with an aggregated summary of your recent workouts and nutrition (numbers only, no photos, no personally identifying information). Chat history is stored <strong>only on your device</strong> — we do not retain a server copy.</p>
+
+  <h2>9. Payments &amp; Subscriptions</h2>
+  <p>All payments are processed by <strong>YooKassa</strong>. The flow: you tap "Get Premium" → our server creates a YooKassa payment → you pay on YooKassa's secure page → YooKassa confirms via webhook → your subscription activates. <strong>DashhFIT never sees your card details.</strong></p>
+
+  <h2>10. Children's Privacy</h2>
+  <p>DashhFIT is not directed at children under 13 (or 16 in the EU). If you believe a child has provided personal information, contact us at <a href="mailto:shihindaniil1987@gmail.com">shihindaniil1987@gmail.com</a> and we will delete it promptly.</p>
+
+  <h2>11. Your Rights</h2>
+  <ul>
+    <li><strong>Access:</strong> View all your data directly in the app (Profile section)</li>
+    <li><strong>Rectification:</strong> Edit any data at any time within the app</li>
+    <li><strong>Deletion:</strong> Profile → Delete Account — deletes local data and queues server-side deletion within 30 days</li>
+    <li><strong>Portability:</strong> Request a data export by contacting us</li>
+    <li><strong>Opt-out of notifications:</strong> Profile → Settings → Notifications — configurable per type</li>
+    <li><strong>Opt-out of AI features:</strong> All AI features are opt-in — simply don't use them</li>
+    <li><strong>GDPR (EU/EEA):</strong> Legal basis is Contract and Consent. Right to lodge a complaint with your local supervisory authority</li>
+    <li><strong>CCPA (California):</strong> We do not sell personal information. Contact us to exercise your rights</li>
+  </ul>
+
+  <h2>12. Data Security</h2>
+  <ul>
+    <li><strong>In transit:</strong> HTTPS/TLS 1.2+ on all connections</li>
+    <li><strong>At rest (device):</strong> iOS Keychain / Android Keystore for tokens; SQLite in app's private sandbox</li>
+    <li><strong>At rest (server):</strong> AES-256 encryption via Supabase; row-level security per user</li>
+    <li><strong>Authentication:</strong> JWT HS256, token length capped at 2048 bytes, rate limiting on all endpoints</li>
+    <li><strong>Webhooks:</strong> Telegram webhook verified by secret token; YooKassa webhook verified by IP whitelist</li>
+  </ul>
+
+  <h2>13. Automated Decision-Making</h2>
+  <p>AI features (food analysis, workout plans, chat) are automated but produce <strong>no legal or similarly significant effects</strong>. All results are suggestions — you retain full control and can override or ignore them.</p>
+
+  <h2>14. International Data Transfers</h2>
+  <ul>
+    <li><strong>Russia</strong> — YooKassa payment processing</li>
+    <li><strong>European Union (Germany)</strong> — Supabase database, Vercel API hosting</li>
+    <li><strong>United States</strong> — IO Intelligence AI services, Expo infrastructure</li>
+  </ul>
+
+  <h2>15. Changes to This Policy</h2>
+  <p>When we update this policy, the "Last updated" date will change. For material changes, we will notify you via in-app notice or Telegram bot message. Continued use after the effective date constitutes acceptance.</p>
+
+  <h2>16. Contact Us</h2>
+  <div class="card">
+    <p><strong>Developer:</strong> Shikhin Daniil</p>
+    <p><strong>Email:</strong> <a href="mailto:shihindaniil1987@gmail.com">shihindaniil1987@gmail.com</a></p>
+    <p><strong>Telegram:</strong> <a href="https://t.me/WorkoutZ121_bot" target="_blank">@WorkoutZ121_bot</a></p>
+    <p><strong>Location:</strong> Russia</p>
+    <p style="margin-top:10px;font-size:14px;">We aim to respond to all requests within <strong>14 business days</strong>.</p>
+  </div>
+
+</div>
+
+<footer>
+  <span>DashhFIT · com.dashh.fittrack</span>
+  <span>© 2025 Shikhin Daniil</span>
+</footer>
+
+</body>
+</html>
